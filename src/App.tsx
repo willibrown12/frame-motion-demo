@@ -1,14 +1,20 @@
-import { motion } from "framer-motion";
-import PulsingButton from './componets/pulsingButton'
+
+import PulsingButton from "./components/pulsingButton";
+import BouncingLoader from "./components/BouncingLoader";
+
+import FlippingCard from "./components/flippinCard";
+import AnimatedCard from "./components/animatedCardDemo/animatedCard";
 
 
 function App() {
+
   return (
-    
-      <div>
-   <PulsingButton/>
-      </div>
-  
+     <div >
+      <PulsingButton />
+      <BouncingLoader />
+      <AnimatedCard/>
+      <FlippingCard/>
+    </div>
   );
 }
 
