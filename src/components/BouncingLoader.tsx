@@ -6,7 +6,7 @@ const BouncingLoader = () => {
 
     return (
 
-        <div className="flex justify-center items-center space-x-2">{[...Array(3)].map((_, index)=>(
+        <div className="flex  justify-center items-center space-x-2">{[...Array(3)].map((_, index)=>(
 
  <motion.div key={index} className="w-4 h-4 bg-teal-500 rounded-full" animate={{y:[0,-15,0]}} transition={{duration:0.6, ease:"easeInOut", repeatDelay: index * 0.1,repeat:Infinity}}/>
 

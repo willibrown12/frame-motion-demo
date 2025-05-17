@@ -6,7 +6,7 @@ const BoxAnimation = () => {
 
 
     return (
-        <div>
+        <div >
         <motion.div className="box"
         whileHover={{scale:1.2 , rotate:10}} transition={{type:"spring", stiffness:300}}
         />
